@@ -1,0 +1,40 @@
+%YAML:1.0
+cam_model: mono
+Kl: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.3363220825849971e+03, 0, 7.1694323510126321e+02, 
+           0., 1.3357883350012958e+03, 7.0576498308221585e+02, 
+           0., 0., 1. ]
+Dl: !!opencv-matrix
+   rows: 1
+   cols: 4
+   dt: d
+   data: [ 1.6798235660113681e-02, 1.6548773243373522e+00,
+       4.2223943394772046e-04, 4.2462134260997584e-04 ]
+xil: !!opencv-matrix
+   rows: 1
+   cols: 1
+   dt: d
+   data: [ 2.2134047507854890e+00 ]
+cap_size: [ 1400, 1400 ]
+
+
+# %YAML:1.0
+# model_type: MEI
+# camera_name: image_02
+# image_width: 1400
+# image_height: 1400
+# mirror_parameters:
+#    xi: 2.2134047507854890e+00
+# distortion_parameters:
+#    k1: 1.6798235660113681e-02
+#    k2: 1.6548773243373522e+00
+#    p1: 4.2223943394772046e-04
+#    p2: 4.2462134260997584e-04
+# projection_parameters:
+#    gamma1: 1.3363220825849971e+03
+#    gamma2: 1.3357883350012958e+03
+#    u0: 7.1694323510126321e+02
+#    v0: 7.0576498308221585e+02
